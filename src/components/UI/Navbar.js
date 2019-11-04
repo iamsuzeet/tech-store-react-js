@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { FaBars, FaCartPlus } from "react-icons/fa";
 import styled from "styled-components";
 import { ProductConsumer } from "../../context";
@@ -36,6 +36,7 @@ const NavWrapper = styled.nav`
   padding: 1rem 1.5rem;
   background: var(--mainGrey);
   border-bottom: 3px solid var(--primaryColor);
+  z-index: 1;
   .nav-center {
     display: flex;
     align-items: center;
